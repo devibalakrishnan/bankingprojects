@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="5728" started-at="2017-09-24T08:55:44Z" finished-at="2017-09-24T08:55:50Z">
+    <groups>
+    </groups>
+    <test name="Run multiple tests" duration-ms="5728" started-at="2017-09-24T08:55:44Z" finished-at="2017-09-24T08:55:50Z">
+      <class name="bankprojusingtestng.Login">
+        <test-method status="PASS" signature="openingbrowser()[pri:0, instance:bankprojusingtestng.Login@5ae9a829]" name="openingbrowser" is-config="true" duration-ms="2692" started-at="2017-09-24T14:25:41Z" finished-at="2017-09-24T14:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingbrowser -->
+        <test-method status="PASS" signature="hittingurl()[pri:0, instance:bankprojusingtestng.Login@5ae9a829]" name="hittingurl" duration-ms="5717" started-at="2017-09-24T14:25:44Z" finished-at="2017-09-24T14:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hittingurl -->
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:bankprojusingtestng.Login@5ae9a829]" name="closingbrowser" is-config="true" duration-ms="2319" started-at="2017-09-24T14:25:50Z" finished-at="2017-09-24T14:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- bankprojusingtestng.Login -->
+    </test> <!-- Run multiple tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
