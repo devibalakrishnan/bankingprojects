@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Test Suite" verbose="2">
-	
+	<parameter name="username" value="mngr98518" />
+	<parameter name="password" value="jagUjAg" />
 	<test name="Run multiple tests"> 
 
 		<classes> 
 
-			<class name="bankprojusingtestng.Login" />
+			<class name="bankprojusingtestng.Parameter" />
 			<!-- <class name="selenium.OpenFacebook"/> <class name="selenium.OpenOpera"/> -->
 
 

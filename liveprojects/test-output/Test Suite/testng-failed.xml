@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Test Suite]">
+  <test name="Run multiple tests(failed)">
+    <classes>
+      <class name="bankprojusingtestng.InvalidInfo">
+        <methods>
+          <include name="openingbrowser"/>
+          <include name="hittingurl"/>
+          <include name="closingbrowser"/>
+        </methods>
+      </class> <!-- bankprojusingtestng.InvalidInfo -->
+    </classes>
+  </test> <!-- Run multiple tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

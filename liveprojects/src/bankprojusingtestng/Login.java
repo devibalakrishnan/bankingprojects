@@ -26,20 +26,20 @@ public class Login {
 		driver.findElement(By.name("uid")).sendKeys("mngr98518");
 		driver.findElement(By.name("password")).sendKeys("jagUjAg"); 
 		driver.findElement(By.name("btnLogin")).click();
-		String man=driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[3]/td")).getText();
+		/*String man=driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[3]/td")).getText();
 		if(man.contains("Manger Id")){
 			System.out.println("login successfull");
 		}
 		else{
 			System.out.println("login failed");
 		}
-	}
+	}*/
 
-	@AfterSuite
+	/*@AfterSuite
 	public void closingbrowser()
 	{
 		driver.close();
-	}
+	}*/
 
 
 
@@ -50,4 +50,5 @@ public class Login {
 
 
 
+}
 }
